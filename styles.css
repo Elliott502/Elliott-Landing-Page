@@ -46,7 +46,7 @@ header{
 
 nav a:visited,
 nav a:link{
-    color:#fff;
+    color:rgb(13, 9, 9);
     text-decoration: none
     ;
 }
