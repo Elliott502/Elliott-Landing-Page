@@ -22,7 +22,7 @@ body {
        }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(199, 63, 63);
 }
 img {
     padding: 5mm;
@@ -30,7 +30,7 @@ img {
     flex-wrap: wrap;
 }
 p{
-    margin: .5em 0 .5em 0;
+    margin:  0  0;
 }
 
 header{
@@ -76,7 +76,7 @@ footer {
 }
 aside,
 article {
-    padding: 2em;
+    padding: 10 em;
 }
 
 aside{
@@ -98,4 +98,30 @@ aside {
     margin-left: 2%;
     
 }
+img {
+    display: flex
+    max-width: 25%;
+    
+}
+@media (max-width:1300px){
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        p 
+    }
+    p {
+     font-size: 1rem;
+     text-align: center;
+     padding: 25px;
+     margin: 15px;
+     
+
+    }
+    .yphoto {
+        padding: 1px;
+        display: flex;
+        position:relative;
+    }
 }
